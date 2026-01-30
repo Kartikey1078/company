@@ -111,7 +111,7 @@ Response:
 
 ## Vercel Deployment
 
-This repo is Vercel-ready with a serverless API under `/api` and a static Vite build.
+This repo is Vercel-ready with a serverless API under `/api` (defined in `backend/api/index.js`) and a static Vite build.
 
 ### Environment Variables (Vercel)
 - `MONGODB_URI`
