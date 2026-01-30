@@ -108,3 +108,18 @@ Response:
 
 - Update `VITE_API_URL` if your API runs on a different host/port.
 - UI is intentionally minimal but clean and responsive.
+
+## Vercel Deployment
+
+This repo is Vercel-ready with a serverless API under `/api` and a static Vite build.
+
+### Environment Variables (Vercel)
+- `MONGODB_URI`
+- `CLOUDINARY_NAME`
+- `CLOUDINARY_API_KEY`
+- `CLOUDINARY_SECRET_KEY`
+- `VITE_API_URL` (set to your Vercel deployment URL + `/api`)
+
+### Build Settings
+- Build command: `cd frontend && npm install && npm run build`
+- Output directory: `frontend/dist`
