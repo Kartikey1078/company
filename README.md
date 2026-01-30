@@ -27,6 +27,15 @@ Clean, production-ready MERN stack app with a REST API, product listing, and car
 3. Optional `.env` with `VITE_API_URL=http://localhost:4000/api`
 4. `npm run dev`
 
+## Run Locally (One Command)
+
+From the repo root:
+
+1. `npm install`
+2. `npm run install:all`
+3. Create `backend/.env` with required keys (see Backend Setup)
+4. `npm run dev`
+
 ## API Endpoints
 
 Base URL: `http://localhost:4000/api`
