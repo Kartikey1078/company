@@ -13,7 +13,7 @@ Clean, production-ready MERN stack app with a REST API, product listing, and car
 2. `npm install`
 3. Create `.env` file with:
    - `MONGODB_URI=mongodb://localhost:27017/products_db`
-   - `PORT=4000`
+   - `PORT=4003`
    - `CLIENT_ORIGIN=http://localhost:5173`
    - `CLOUDINARY_NAME=your_cloud_name`
    - `CLOUDINARY_API_KEY=your_api_key`
@@ -24,7 +24,7 @@ Clean, production-ready MERN stack app with a REST API, product listing, and car
 
 1. `cd frontend`
 2. `npm install`
-3. Optional `.env` with `VITE_API_URL=http://localhost:4000/api`
+3. Optional `.env` with `VITE_API_URL=http://localhost:4003/api`
 4. `npm run dev`
 
 ## Run Locally (One Command)
@@ -38,7 +38,7 @@ From the repo root:
 
 ## API Endpoints
 
-Base URL: `http://localhost:4000/api`
+Base URL: `http://localhost:4003/api`
 
 ### List products
 `GET /products`
